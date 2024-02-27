@@ -61,7 +61,7 @@ export default function Checkout(props) {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: `http://localhost:3000/confirmation/${orderId}`,
+        return_url: `https://jason-bakery.netlify.app/confirmation/${orderId}`,
       },
     });
 
